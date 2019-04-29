@@ -13,6 +13,7 @@
 		3C0833A92273B3F300106F84 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C0833A72273B3F300106F84 /* ColeccionDeJuegos.xcdatamodeld */; };
 		3C0833AB2273B3F600106F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0833AA2273B3F600106F84 /* Assets.xcassets */; };
 		3C0833AE2273B3F600106F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0833AC2273B3F600106F84 /* LaunchScreen.storyboard */; };
+		3C0833B62273C85000106F84 /* JuegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0833B52273C85000106F84 /* JuegoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C0833AA2273B3F600106F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0833AD2273B3F600106F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C0833AF2273B3F600106F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0833B52273C85000106F84 /* JuegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3C0833AC2273B3F600106F84 /* LaunchScreen.storyboard */,
 				3C0833AF2273B3F600106F84 /* Info.plist */,
 				3C0833A72273B3F300106F84 /* ColeccionDeJuegos.xcdatamodeld */,
+				3C0833B52273C85000106F84 /* JuegoViewController.swift */,
 			);
 			path = ColeccionDeJuegos;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0833A32273B3F300106F84 /* ViewController.swift in Sources */,
+				3C0833B62273C85000106F84 /* JuegoViewController.swift in Sources */,
 				3C0833A12273B3F300106F84 /* AppDelegate.swift in Sources */,
 				3C0833A92273B3F300106F84 /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = angoma.pe.edu.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = angomaArian.pe.edu.tecsup.ColeccionDeJuegos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = angoma.pe.edu.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = angomaArian.pe.edu.tecsup.ColeccionDeJuegos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
